@@ -582,7 +582,7 @@ const SHAPEFACE = {
   
   textures: [{
     id: 'color',
-    src: './assets/dataTextureMask.png'
+    src: 'assets/makeup2.png'
   }]
 }; // END SHAPEFACE
 

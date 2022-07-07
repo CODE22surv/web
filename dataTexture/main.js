@@ -583,7 +583,7 @@ const SHAPEFACE = {
   textures: [{
     id: 'color',
     // src: 'assets/dataTextureMask.png'
-  src: 'faces_crop_mask.png'
+  src: 'https://github.com/CODE22surv/web/blob/main/dataTexture/assets/dataTextureMask.png'
   }]
 }; // END SHAPEFACE
 

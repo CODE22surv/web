@@ -2,7 +2,7 @@
 const SETTINGS = {
   // occluders 3D models (used to compute the maskS)
   faceOccluderPath: 'assets/faceBgRemovalOccluder.glb',
-  torsoOccluderPath: 'assets/torsoBgRemovalOccluder.glb',
+  //// torsoOccluderPath: 'assets/torsoBgRemovalOccluder.glb',
 
   // face occluder pose:
   // warning: it is also applied to the torso occluder
@@ -16,9 +16,9 @@ const SETTINGS = {
   faceOccluderScale: 0.95,
   
   // torso occluder pose:
-  torsoRotX: 0, // in rad. + -> rotate forward
-  torsoBaseNeck: [0, -58, -18], // position of the base of the neck in the torso ref
-  torsoTranslateY: 95, // + -> up
+  //// torsoRotX: 0, // in rad. + -> rotate forward
+  //// torsoBaseNeck: [0, -58, -18], // position of the base of the neck in the torso ref
+  //// torsoTranslateY: 95, // + -> up
   
 
   // debug flags. All should be set to false:
@@ -71,9 +71,9 @@ function main(){ // entry point
     scale: SETTINGS.faceOccluderScale,
 
     // torso pose:
-    torsoRotX: SETTINGS.torsoRotX, // in degrees
-    torsoBaseNeck: SETTINGS.torsoBaseNeck, // position of the base of the neck in the torso ref
-    torsoTranslateY: SETTINGS.torsoTranslateY,
+    //// torsoRotX: SETTINGS.torsoRotX, // in degrees
+    //// torsoBaseNeck: SETTINGS.torsoBaseNeck, // position of the base of the neck in the torso ref
+    ////  torsoTranslateY: SETTINGS.torsoTranslateY,
 
     isComputeTorsoPose: true,
     isPostProcessing: true, // we set it to true to be able to add a blur postprocessing pass
@@ -178,7 +178,7 @@ function start(err, threeInstances){
 
   // load meshes:
   add_backgroundRemovalOccluder(threeInstances.threeFaceFollowers, SETTINGS.faceOccluderPath);
-  add_backgroundRemovalOccluder(threeInstances.threeTorsoFollowers, SETTINGS.torsoOccluderPath);
+  //// add_backgroundRemovalOccluder(threeInstances.threeTorsoFollowers, SETTINGS.torsoOccluderPath);
 
   if (!SETTINGS.debugDisableBlur && !SETTINGS.debugDisplayOccluders){
     add_blurPostProcessingPass(threeInstances.threeComposer);

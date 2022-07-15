@@ -8,9 +8,12 @@ const SETTINGS = {
   // warning: it is also applied to the torso occluder
   // so please tune first these 2 settings to have the right pose for the face occluder
   // then tune the torso occluder pose
+  //// faceRxOffset: -Math.PI * 15 / 180, // in rad, + -> look down
+  //// faceOccluderTranslationYZ: [-20.0, 0.0], // Y+ -> upper, Z+ -> forward
+  //// faceOccluderScale: 0.95,
   faceRxOffset: -Math.PI * 15 / 180, // in rad, + -> look down
   faceOccluderTranslationYZ: [-20.0, 0.0], // Y+ -> upper, Z+ -> forward
-  faceOccluderScale: 0.95,
+  faceOccluderScale: 0.7,
   
   // torso occluder pose:
   torsoRotX: 0, // in rad. + -> rotate forward

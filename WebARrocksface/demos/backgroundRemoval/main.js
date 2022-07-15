@@ -12,13 +12,13 @@ const SETTINGS = {
   //// faceOccluderTranslationYZ: [-20.0, 0.0], // Y+ -> upper, Z+ -> forward
   //// faceOccluderScale: 0.95,
   faceRxOffset: -Math.PI * 15 / 180, // in rad, + -> look down
-  faceOccluderTranslationYZ: [-20.0, 30.0], // Y+ -> upper, Z+ -> forward
-  faceOccluderScale: 1.9,
+  faceOccluderTranslationYZ: [-20.0, 0.0], // Y+ -> upper, Z+ -> forward
+  faceOccluderScale: 0.1,
   
   // torso occluder pose:
   torsoRotX: 0, // in rad. + -> rotate forward
   torsoBaseNeck: [0, -58, -18], // position of the base of the neck in the torso ref
-  torsoTranslateY: -95, // + -> up
+  torsoTranslateY: 95, // + -> up
   
 
   // debug flags. All should be set to false:

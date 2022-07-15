@@ -38,7 +38,7 @@ const SETTINGS = {
 
 const GIF = {
   animation:{
-    way: 1, // 1-> forward, -1-> backward play
+    way: 0, // 1-> forward, -1-> backward play
     currentFrameIndex: 0,
     startTimestamp: 0
   },

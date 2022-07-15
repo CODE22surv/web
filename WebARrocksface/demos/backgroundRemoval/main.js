@@ -12,7 +12,7 @@ const SETTINGS = {
   //// faceOccluderTranslationYZ: [-20.0, 0.0], // Y+ -> upper, Z+ -> forward
   //// faceOccluderScale: 0.95,
   faceRxOffset: -Math.PI * 15 / 180, // in rad, + -> look down
-  faceOccluderTranslationYZ: [-20.0, 0.0], // Y+ -> upper, Z+ -> forward
+  faceOccluderTranslationYZ: [-20.0, -10.0], // Y+ -> upper, Z+ -> forward
   faceOccluderScale: 0.7,
   
   // torso occluder pose:

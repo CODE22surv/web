@@ -13,7 +13,7 @@ const SETTINGS = {
   //// faceOccluderScale: 0.95,
   faceRxOffset: -Math.PI * 15 / 180, // in rad, + -> look down
   faceOccluderTranslationYZ: [-20.0, 0.0], // Y+ -> upper, Z+ -> forward
-  faceOccluderScale: 0.1,
+  faceOccluderScale: 0.9,
   
   // torso occluder pose:
   torsoRotX: 0, // in rad. + -> rotate forward
@@ -26,7 +26,7 @@ const SETTINGS = {
   debugDisableBlur: false,
 
   // relative mask blur:
-  blurMaskStrength: 0.03
+  blurMaskStrength: 0.4
 };
 
 

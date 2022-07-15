@@ -26,7 +26,7 @@ const SETTINGS = {
   debugDisableBlur: false,
 
   // relative mask blur:
-  blurMaskStrength: 0.1
+  blurMaskStrength: 0.01
 };
 
 

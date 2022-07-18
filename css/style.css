@@ -130,4 +130,49 @@ p {
 #WebARRocksFaceCanvasAR {
         z-index: 1;
 }
+/* BEGIN WEBAR CSS Replace Background */
+      body {
+        overflow: hidden;
+        background: url('./img/03kl.png') no-repeat center center fixed;
+        background-size: contain;
+        width: 100vw;
+        height: 100vh;
+      }
+      #WebARRocksFaceCanvas, #threeCanvas {
+        display: none;
+      }
+      #compositeCanvas {
+        z-index: 4;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        
+        /* mirror the canvas: */
+        transform: rotateY(180deg);
+      }
+      /* FROM HERE, ALL IS FOR DEBUG (so should be commented) */
+      /*
+      #WebARRocksFaceCanvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        border: 1px solid red;
+        display: block;
+        max-width: 33vw;
+        z-index: 4;
+      } 
+      #threeCanvas {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        border: 1px solid lime;
+        max-width: 33vw;
+        display: block;
+        z-index: 4;
+      }
+      */
+/* WEBAR CSS Replace Background */
 /*** END WebAR styling ***/

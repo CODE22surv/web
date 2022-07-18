@@ -130,12 +130,16 @@ p {
         z-index: 1;
 }
 /* BEGIN WEBAR CSS Replace Background */
-      body .webar {
-        overflow: hidden;
-        background: url('./img/03kl.png') no-repeat center center fixed;
-        background-size: contain;
-        width: 100vw;
-        height: 100vh;
+    body .webar {
+      overflow: hidden;
+      background-image: url('../img/03kl.png');
+      background-color: rgb(192,254,212);
+      width: 100vw;
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
       }
       #WebARRocksFaceCanvas, #threeCanvas {
         display: none;

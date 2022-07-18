@@ -111,7 +111,6 @@ p {
   transform: translate(-20%, -20%);
   color: #FF1493;
 }
-
 /*** END Playing style-code.css ***/
 
 
@@ -131,7 +130,7 @@ p {
         z-index: 1;
 }
 /* BEGIN WEBAR CSS Replace Background */
-      body {
+      body .webar {
         overflow: hidden;
         background: url('./img/03kl.png') no-repeat center center fixed;
         background-size: contain;

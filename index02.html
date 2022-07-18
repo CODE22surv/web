@@ -35,11 +35,60 @@
     <!-- INCLUDE MAIN DEMO SCRIPT: -->
     <script src="./js/WebAR_main.js"></script>
     <!-- END WEBAR JS LIBRARIES -->
+    
+    <!-- BEGIN WEBAR CSS Needed to be Inline -->
+      <style type='text/css'>
+      body {
+        margin: 0;
+        overflow: hidden;
+        background: url('./img/03kl.png') no-repeat center center fixed;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+      }
+      #WebARRocksFaceCanvas, #threeCanvas {
+        display: none;
+      }
+      #compositeCanvas {
+        z-index: 4;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        
+        /* mirror the canvas: */
+        transform: rotateY(180deg);
+      }
+      /* FROM HERE, ALL IS FOR DEBUG (so should be commented) */
+      /*
+      #WebARRocksFaceCanvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        border: 1px solid red;
+        display: block;
+        max-width: 33vw;
+        z-index: 4;
+      } 
+      #threeCanvas {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        border: 1px solid lime;
+        max-width: 33vw;
+        display: block;
+        z-index: 4;
+      }
+      */
+    </style>
+        <!-- END WEBAR CSS -->
   </head>
   <body>
     <div class="container">
       <div class="title">ATLAS OF ID 3/13</div>
-      <img src="./img/Scene01_4K_13.07.2022_14-34-17.png"style="width:96%;">
+      <!-- <img src="./img/Scene01_4K_13.07.2022_14-34-17.png"style="width:96%;"> -->
       <div class="bottom-right"><a href="index01.html">BACK</a></div>
       <div class="o"><a href="index03.html">o</a></div>
       <div class="top-right">Your face is like a secret code.

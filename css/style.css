@@ -1,4 +1,5 @@
 /*** BEGIN Playing style-code.css ***/
+
 /* browser styling resetten */
 *  {
     margin: 0;
@@ -29,9 +30,11 @@ canvas {
 }
 
 /* Inline style gevonden in al de pagina's, dus hier geplaatst */ 
-a { 
-  text-decoration: none; 
-}
+a { text-decoration: none; }
+a:link { color: #FF1493; text-decoration: none; font-weight: normal }
+a:visited { color: #FF1493; text-decorationN: none; font-weight: normal }
+a:active { color:#7FFFD4; text-decoration: none }
+a:hover { color: #7FFFD4; text-decoration: none; font-weight: normal }
 
 p {
   margin-bottom: 1.5rem;
@@ -105,12 +108,7 @@ p {
   color: #FF1493;
 }
 
-<style type="text/css">
-A:link { COLOR: #FF1493; TEXT-DECORATION: none; font-weight: normal }
-A:visited { COLOR: #FF1493; TEXT-DECORATION: none; font-weight: normal }
-A:active { COLOR:#7FFFD4; TEXT-DECORATION: none }
-A:hover { COLOR: #7FFFD4; TEXT-DECORATION: none; font-weight: normal }
-</style>
+/*** END Playing style-code.css ***/
 
 
 /*** BEGIN WebAR styling ***/

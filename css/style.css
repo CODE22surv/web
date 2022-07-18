@@ -10,6 +10,12 @@ canvas {
 body {
         overflow: hidden;
 }
+
+a { 
+  text-decoration: none; 
+}
+
+/*** BEGIN WebAR styling ***/
 #WebARRocksFaceCanvasAR, #WebARRocksFaceCanvasVideo {
         position: fixed;
         width: 100vw;
@@ -24,3 +30,4 @@ body {
 #WebARRocksFaceCanvasAR {
         z-index: 1;
 }
+/*** END WebAR styling ***/

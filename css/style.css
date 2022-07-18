@@ -42,7 +42,7 @@ p {
 
 /* Container holding the image and the text */
 .container {
-  position: relative;
+  /* position: relative; */
   text-align: center;
     z-index: 10;
 }

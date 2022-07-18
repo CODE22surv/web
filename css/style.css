@@ -42,9 +42,12 @@ p {
 
 /* Container holding the image and the text */
 .container {
-  /* position: relative; */
-  text-align: center;
     z-index: 10;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    text-align: center;
 }
 
 /* Bottom left text */

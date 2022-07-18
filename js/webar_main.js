@@ -1,8 +1,8 @@
 
 const SETTINGS = {
   // occluders 3D models (used to compute the maskS)
-  faceOccluderPath: './WebARrocksface/demos/backgroundRemoval/assets/faceBgRemovalOccluder.glb',
-  torsoOccluderPath: './WebARrocksface/demos/backgroundRemoval/assets/torsoBgRemovalOccluder.glb',
+  faceOccluderPath: './webar/demos/backgroundRemoval/assets/faceBgRemovalOccluder.glb',
+  torsoOccluderPath: './webar/demos/backgroundRemoval/assets/torsoBgRemovalOccluder.glb',
 
   // face occluder pose:
   // warning: it is also applied to the torso occluder
@@ -55,7 +55,7 @@ function main(){ // entry point
   // init WebAR.rock.rocks through the THREE helper:
   WebARRocksFaceThreeHelper.init({
     spec: {
-      NNCPath: './WebARrocksface/neuralNets/NN_HEADPHONES_4.json',
+      NNCPath: './webar/neuralNets/NN_HEADPHONES_4.json',
       scanSettings: {
         threshold: 0.6
       }

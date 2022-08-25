@@ -18,7 +18,7 @@
       const faceMesh = mindarThree.addFaceMesh();
       const texture = new THREE.TextureLoader().load('./img_canonical_model/canonical_face_model_uv_visualization_GREEN_02.png');
       faceMesh.material.map = texture;
-	    faceMesh.material.opacity: 0.4;
+	    faceMesh.material.opacity = 0.4;
       faceMesh.material.transparent = true;
       faceMesh.material.needsUpdate = true;
       scene.add(faceMesh);

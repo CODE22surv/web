@@ -16,7 +16,7 @@
       const light = new THREE.HemisphereLight( 0xffffff, 0xbbbbff, 1 );
       scene.add(light);
       const faceMesh = mindarThree.addFaceMesh();
-      const texture = new THREE.TextureLoader().load('./img/canonical_face_model_uv_visualization_NEW.png');
+      const texture = new THREE.TextureLoader().load('./img_canonical_model/canonical_face_model_uv_visualization_TRANSPARENT.png');
       faceMesh.material.map = texture;
       faceMesh.material.transparent = true;
       faceMesh.material.needsUpdate = true;

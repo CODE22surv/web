@@ -5,6 +5,12 @@
 	  <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/dist/mindar-face.prod.js"></script>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/dist/mindar-face-aframe.prod.js"></script>
+
+//// background transparant !? 
+var renderer = new THREE.WebGLRenderer( { alpha: true } );
+// You can leave the clear color at the default value.
+renderer.setClearColor( 0x000000, 0 ); // the default
+
 	-->
     <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.1.5/dist/mindar-face-three.prod.js"></script>
     <script type="module">

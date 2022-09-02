@@ -22,7 +22,7 @@ renderer.setClearColor( 0x000000, 0 ); // the default
       const light = new THREE.HemisphereLight( 0xffffff, 0xbbbbff, 1 );
       scene.add(light);
       const faceMesh = mindarThree.addFaceMesh();
-      const texture = new THREE.TextureLoader().load('./img_canonical_model/canonical_face_model_uv_visualization_GREEN_02.png');
+      const texture = new THREE.TextureLoader().load('./img_canonical_model/canonical_face_model_uv_visualization_GREEN_01.png');
       faceMesh.material.map = texture;
 	    faceMesh.material.opacity = 0.4;
       faceMesh.material.transparent = true;
